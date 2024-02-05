@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 420px;
+    height: 426px;
+    border-radius: 20px;
+    padding: 16px 16px 16px 16px;
+    margin:20px;  
+    border: 1px solid #dcdee0;
+    position: relative;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.close {
+    position: absolute;
+    right: 14px;
+    top: 14px;px;
+    width: 30px;
+    height: 30px;  
+}
+
+h1 {
+    font-size: 28px;
+    width: 356px;
+    height: 32px;
+    margin: 12px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    Gap: 8px;
+    caret-color: #FFAA0D;
+    margin: 20px 12px;
+}
+
+.input-email {
+    width: 356px;
+    height: 48px;
+    padding: 7px 16px 7px 16px;
+    border-radius: 12px;
+    border: 1px solid #dcdee0;
+    font-weight: 100;
+}
+.input-password {
+    width: 356px;
+    height: 48px;
+    padding: 14px 16px 14px 16px;
+    border-radius: 12px;
+    border: 1px solid #dcdee0;
+    font-weight: 100;
+}
+p{
+    margin: 20px 12px 20px 12px;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration-color: #7B8E98;
+}
+.input input:focus{
+    outline: none;
+    border: none;
+    border: 1px solid #FFE44D;
+}
+.submit {
+    Gap: 8px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 20px 12px 20px 12px;
+}
+.submit-regist {
+    padding: 14px 24px 14px 24px;
+    border-radius: 55px;
+    background: #FFE44D;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+}
+.submit-come {
+    padding: 14px 24px 14px 24px;
+    border-radius: 55px;
+    background: none;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #dcdee0;
+}
+.submit-regist submit-regist:focus{
+    outline: none;
+    border: none;
+    border: 1px solid #FFE44D;
+}
+.submit-come submit-come:focus{
+    outline: none;
+    border: none;
+    border: 1px solid #FFE44D;
+}
